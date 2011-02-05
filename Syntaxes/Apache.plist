@@ -501,6 +501,12 @@
 			<key>name</key>
 			<string>meta.tag.apache-config</string>
 		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(user|group|processes|threads|umask|home|python\-(path|eggs)|stack\-size|maximum-requests|(inactivity|deadlock|shutdown)\-timeout|display-name|(receive|send)\-buffer)|(process|application)\-group\b\=</string>
+			<key>name</key>
+			<string>wsgi.directives</string>
+		</dict>
 	</array>
 	<key>repository</key>
 	<dict>
